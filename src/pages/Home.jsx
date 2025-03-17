@@ -13,7 +13,7 @@ function Portfolio() {
         
         <div>
           <h1 className="text-3xl font-normal mb-4">Hi, I'm Alidar Panaguzhiyev</h1>
-          <p className="text-gray-400 mb-6">Machine Learning Researcher, Cosmopolitan</p>
+          <p className="text-gray-400 mb-6">Researcher, Engineer, Cosmopolitan</p>
           <div className="space-y-2 text-gray-500">
             <p>Almaty, Kazakhstan</p>
             <p>BEng @ Kazakh-British Technical University, Applied Math</p>
