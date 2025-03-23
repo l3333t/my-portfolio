@@ -27,9 +27,8 @@ function Portfolio() {
         <div>
           <h2 className="text-xl font-normal mb-6">My Philosophy</h2>
           <div className="space-y-4 text-gray-400">
-            <p>I try to navigate this world intuitively, thinking on a scale of 2–3 years while keeping a long-term vision—something like 30 years—rooted deep in my subconscious. However, I make decisions based on the present moment, as everything changes rapidly.  </p>
-<p>For a while, and even now to some extent, I've struggled with existentialism. But I've come to realize that falling into despair because of it is no different from self-destruction. The wisest approach, in my view, is to search for meaning in life and contribute to the progress of humanity—or at the very least, not be a force of destruction.
-            </p>
+            <p>I try to navigate this world intuitively, thinking on a scale of 2–3 years while keeping a long-term vision—something like 30 years—rooted deep in my subconscious. However, I make decisions based on the present moment, as everything changes rapidly.</p>
+            <p>For a while, and even now to some extent, I've struggled with existentialism. But I've come to realize that falling into despair because of it is no different from self-destruction. The wisest approach, in my view, is to search for meaning in life and contribute to the progress of humanity—or at the very least, not be a force of destruction.</p>
           </div>
         </div>
         
@@ -48,55 +47,73 @@ function Portfolio() {
         <h2 className="text-xl font-normal mb-8">ML & Data Science Projects</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Project 1 */}
+          {/* Traffic Flow Prediction */}
           <div className="border border-gray-800 rounded p-6 hover:bg-gray-900 transition duration-300">
-            <h3 className="text-lg mb-3">Image Classification System</h3>
+            <h3 className="text-lg mb-3">Traffic Flow Prediction</h3>
             <p className="text-gray-400 mb-4">
-              Developed a convolutional neural network for multi-class image classification with over 92% accuracy. 
-              Implemented data augmentation techniques to improve model generalization on limited training data.
+              Developed a machine learning model for predicting road congestion based on time series analysis.
+              Conducted data analysis and visualization using Pandas and Matplotlib.
+              Applied Feature Engineering methods, including temporal feature extraction.
             </p>
             <div className="flex justify-between text-gray-500 text-sm">
-              <span>Python, TensorFlow, OpenCV</span>
+              <span>Python, Pandas, Matplotlib, ML</span>
               <span>2024</span>
             </div>
           </div>
           
-          {/* Project 2 */}
+          {/* Spam Classification */}
           <div className="border border-gray-800 rounded p-6 hover:bg-gray-900 transition duration-300">
-            <h3 className="text-lg mb-3">Shortest Path Algorithm via ML</h3>
+            <h3 className="text-lg mb-3">Spam Classification From Scratch</h3>
             <p className="text-gray-400 mb-4">
-              Researched and implemented a novel approach for solving shortest path problems using reinforcement learning. 
-              Compared performance against traditional algorithms like Dijkstra and A* in complex networks.
+              Developed an SMS-spam classifier using logistic regression and TF-IDF.
+              Implemented text preprocessing methods for data cleaning and normalization.
+              Achieved F1-score of 0.92-0.94 on test data with cross-validation.
             </p>
             <div className="flex justify-between text-gray-500 text-sm">
-              <span>Python, PyTorch, NetworkX</span>
+              <span>Python, NLP, Kaggle Dataset</span>
+              <span>2024</span>
+            </div>
+          </div>
+          
+          {/* Home Price Prediction */}
+          <div className="border border-gray-800 rounded p-6 hover:bg-gray-900 transition duration-300">
+            <h3 className="text-lg mb-3">Home Price Prediction</h3>
+            <p className="text-gray-400 mb-4">
+              Developed a machine learning model for real estate price estimation.
+              Used gradient boosting (XGBoost) to improve prediction accuracy.
+              Implemented feature engineering to extract meaningful patterns from property data.
+            </p>
+            <div className="flex justify-between text-gray-500 text-sm">
+              <span>Python, XGBoost, Data Analysis</span>
               <span>2023</span>
             </div>
           </div>
           
-          {/* Project 3 */}
+          {/* Resume Parsing */}
           <div className="border border-gray-800 rounded p-6 hover:bg-gray-900 transition duration-300">
-            <h3 className="text-lg mb-3">Film Trend Analysis</h3>
+            <h3 className="text-lg mb-3">Resume Parsing</h3>
             <p className="text-gray-400 mb-4">
-              Collaborated in a team to analyze 50+ years of film data to identify genre popularity trends and predict future shifts.
-              Built interactive visualizations and presented findings to stakeholders for strategic decision-making.
+              Developed a tool for automatic data extraction from resumes.
+              Used Natural Language Processing and regular expressions to identify and categorize resume sections.
+              Created a system that streamlines the hiring process by automating candidate information extraction.
             </p>
             <div className="flex justify-between text-gray-500 text-sm">
-              <span>Python, Pandas, Matplotlib, SQL</span>
-              <span>2022</span>
+              <span>Python, NLP, RegEx</span>
+              <span>2024</span>
             </div>
           </div>
-          
-          {/* Project 4 */}
+
+          {/* nFactorial Incubator AI Project */}
           <div className="border border-gray-800 rounded p-6 hover:bg-gray-900 transition duration-300">
-            <h3 className="text-lg mb-3">E-commerce Purchase Trends</h3>
+            <h3 className="text-lg mb-3">AI Blood Analysis System</h3>
             <p className="text-gray-400 mb-4">
-              Analyzed customer purchase patterns using association rule mining to uncover product affinities.
-              Created a recommendation system that increased cross-selling by 14% in pilot implementation.
+              Developed a blood analysis system using OpenAI API that provides personalized recommendations.
+              Created as part of the nFactorial Incubator program.
+              Focused on making medical information more accessible through AI interpretation.
             </p>
             <div className="flex justify-between text-gray-500 text-sm">
-              <span>Python, scikit-learn, Tableau</span>
-              <span>2022</span>
+              <span>OpenAI API, Python</span>
+              <span>Summer 2024</span>
             </div>
           </div>
         </div>
