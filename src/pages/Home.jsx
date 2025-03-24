@@ -47,6 +47,20 @@ function Portfolio() {
         <h2 className="text-xl font-normal mb-8">ML & Data Science Projects</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Cookie Cats A/B Testing */}
+          <div className="border border-gray-800 rounded p-6 hover:bg-gray-900 transition duration-300">
+            <h3 className="text-lg mb-3">A/B-Testing for Cookie Cats Mobile Game</h3>
+            <p className="text-gray-400 mb-4">
+              Conducted analysis of an A/B test involving 90,189 players to evaluate the impact of game mechanic changes on user retention.
+              Used statistical methods including bootstrap analysis to confirm the hypothesis of hedonic adaptation.
+              Results showed 7-day retention decreased from 18.12% (level 30) to 16.00% (level 40).
+            </p>
+            <div className="flex justify-between text-gray-500 text-sm">
+              <span>Pandas, Matplotlib, Seaborn, A/B Testing</span>
+              <span>2024</span>
+            </div>
+          </div>
+          
           {/* Traffic Flow Prediction */}
           <div className="border border-gray-800 rounded p-6 hover:bg-gray-900 transition duration-300">
             <h3 className="text-lg mb-3">Traffic Flow Prediction</h3>
